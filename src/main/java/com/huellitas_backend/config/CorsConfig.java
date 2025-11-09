@@ -17,8 +17,8 @@ public class CorsConfig {
                         .allowedOriginPatterns(
                                 "http://localhost:5500",
                                 "http://127.0.0.1:5500",
-                                "https://tu-dominio.com",
-                                "https://www.tu-dominio.com"
+                                "https://huellitas.diegoagudo.com.ar",
+                                "https://huellitas.diegoagudo.com.ar"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
                         .allowedHeaders("*")
