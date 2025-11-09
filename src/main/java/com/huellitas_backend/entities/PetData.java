@@ -25,7 +25,6 @@ public class PetData {
     private String petPicture;
     private LocalDate birthDate;
     private String ownerName;
-    private String contact1;
-    private String contact2;
+    private String contact;
     private String note;
 }
