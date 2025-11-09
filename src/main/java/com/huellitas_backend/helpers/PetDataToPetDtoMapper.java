@@ -18,8 +18,7 @@ public class PetDataToPetDtoMapper {
                 .petPicture(petData.getPetPicture())
                 .birthDate(petData.getBirthDate())
                 .ownerName(petData.getOwnerName())
-                .contact1(petData.getContact1())
-                .contact2(petData.getContact2())
+                .contact(petData.getContact())
                 .note(petData.getNote())
                 .build();
     }
