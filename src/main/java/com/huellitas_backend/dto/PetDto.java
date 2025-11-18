@@ -14,7 +14,7 @@ import java.time.LocalDate;
 public class PetDto {
 
     private String petName;
-    private String petType;
+    private Boolean active;
     private String petPicture;
     private LocalDate birthDate;
     private String ownerName;

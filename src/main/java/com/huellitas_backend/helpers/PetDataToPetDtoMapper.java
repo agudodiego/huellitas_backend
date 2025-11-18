@@ -14,7 +14,7 @@ public class PetDataToPetDtoMapper {
 
         return PetDto.builder()
                 .petName(petData.getPetName())
-                .petType(petData.getPetType())
+                .active(petData.getActive())
                 .petPicture(petData.getPetPicture())
                 .birthDate(petData.getBirthDate())
                 .ownerName(petData.getOwnerName())
