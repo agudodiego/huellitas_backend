@@ -21,10 +21,11 @@ public class PetData {
     @Column(nullable = false, unique = true)
     private String code;
     private String petName;
-    private String petType;
+    private Boolean active;
     private String petPicture;
     private LocalDate birthDate;
     private String ownerName;
     private String contact;
+    @Column(name = "note", length = 500)
     private String note;
 }
